@@ -1,0 +1,275 @@
+<!-- /sections/3d-hero.liquid -->
+<section
+  data-section-id="{{ section.id }}"
+  data-section-type="3d-hero"
+  class="flex 3d-hs-desktop"
+  style="height: {{ section.settings.desktop_height }}; position: relative; overflow: hidden;"
+>
+  <!-- Background container acting as full-section animated background -->
+  <div
+    class="hs-container"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; overflow: hidden;"
+  >
+    {% for block in section.blocks %}
+      {% if block.type == 'hs_container' %}
+        <!-- Desktop 3D module -->
+        <div
+          id="block-{{ block.id }}"
+          class="hs-module-desktop"
+          data-block-id="{{ block.id }}"
+          data-block-type="{{ block.type }}"
+        >
+          {{ block.settings.desktop_code }}
+        </div>
+        {% unless block.settings.mobile_code == blank %}
+          <!-- Mobile 3D module -->
+          <div
+            id="block-{{ block.id }}-mobile"
+            class="hs-module-mobile"
+            data-block-id="{{ block.id }}"
+            data-block-type="{{ block.type }}"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; overflow: hidden;"
+          >
+            {{ block.settings.mobile_code }}
+          </div>
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- Foreground content -->
+  <div
+    class="titles-hs flex"
+    style="height: {{ section.settings.desktop_height }}; position: relative; z-index: 2;"
+  >
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'heading' %}
+          <h1
+            id="block-{{ block.id }}"
+            class="SectionHeader__Heading CustomSize DisplayLarge animate-text"
+            data-block-id="{{ block.id }}"
+            data-block-type="{{ block.type }}"
+          >
+            {{ block.settings.text }}
+          </h1>
+
+        {% when 'description' %}
+          <div
+            id="block-{{ block.id }}"
+            class="SectionHeader__Description animate-text"
+            data-block-id="{{ block.id }}"
+            data-block-type="{{ block.type }}"
+          >
+            {{ block.settings.text }}
+          </div>
+
+        {% when 'cta_button' %}
+          <a
+            id="block-{{ block.id }}"
+            href="{{ block.settings.url }}"
+            class="btn animate-text"
+            data-block-id="{{ block.id }}"
+            data-block-type="{{ block.type }}"
+          >
+            {{ block.settings.label }}
+          </a>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+  .titles-hs {
+    display: block;
+    position: absolute;
+    top: 40%;
+    padding: 4rem;
+  }
+  h1, .SectionHeader__Description, .btn {
+    font-weight: bold !important;
+    color: white;
+    filter: drop-shadow(0 4px 10px rgba(128, 128, 128, 0.3));
+  }
+  /* Center and scale the 3D module within its container to prevent cropping */
+  .hs-container .hs-module-desktop,
+  .hs-container .hs-module-mobile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+  }
+  /* Ensure spline-viewer canvas fills its parent */
+  .hs-module-desktop spline-viewer,
+  .hs-module-mobile spline-viewer {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  /* Hide overflow on the section itself */
+  .3d-hs-desktop {
+    overflow: hidden;
+  }
+
+  /* Animate-text word styles */
+  .word {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateY(20px);
+    transition:
+      opacity 0.8s ease-out,
+      filter 0.8s ease-out,
+      transform 0.8s ease-out;
+  }
+  .word.visible {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+  .line {
+    display: block;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const lineDelay = 500; // ms between lines
+    const wordDelay = 75;  // ms between words
+
+    document.querySelectorAll('.animate-text').forEach(el => {
+      const scrollDelay = parseInt(el.dataset.scrollDelay) || 3000;
+
+      // Split on every <br> into lines
+      const lines = el.innerHTML.trim().split(/<br\s*\/?>>/gi);
+      el.innerHTML = lines
+        .map(line => `<div class="line">${line.trim()}</div>`)
+        .join('');
+
+      // Wrap every word in each line
+      el.querySelectorAll('.line').forEach(lineEl => {
+        const words = lineEl.textContent.trim().split(/\s+/);
+        lineEl.innerHTML = words
+          .map(w => `<span class="word">${w}</span>`)
+          .join(' ');
+      });
+
+      // Observe when this element enters view
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+
+          setTimeout(() => {
+            entry.target.querySelectorAll('.line').forEach((lineEl, li) => {
+              lineEl.querySelectorAll('.word').forEach((word, wi) => {
+                const delay = li * lineDelay + wi * wordDelay;
+                setTimeout(() => word.classList.add('visible'), delay);
+              });
+            });
+          }, scrollDelay);
+
+          obs.unobserve(entry.target);
+        });
+      }, { threshold: 0.1 });
+
+      observer.observe(el);
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "3D Hero Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "desktop_height",
+      "label": "Section Height (Desktop)",
+      "default": "600px"
+    },
+    {
+      "type": "text",
+      "id": "mobile_height",
+      "label": "Section Height (Mobile)",
+      "default": "300px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "hs_container",
+      "name": "3D Module",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "desktop_code",
+          "label": "Desktop Embed Code",
+          "default": "<script type=\"module\" src=\"https://unpkg.com/@splinetool/viewer@1.10.37/build/spline-viewer.js\"></script>\n<spline-viewer url=\"https://prod.spline.design/w7hc4eigBFcvrhUT/scene.splinecode\"></spline-viewer>"
+        },
+        {
+          "type": "liquid",
+          "id": "mobile_code",
+          "label": "Mobile Embed Code",
+          "default": "<!-- Mobile Embed Code -->"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Heading Text",
+          "default": "Transform Spaces with <br>Timeless Tile & Bathware"
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "Description",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Body Copy",
+          "default": "<b>Unleash Your Design Vision</b><br>From textured stone-look tiles to elegant tapware and bathroom essentials, discover premium materials that bring warmth, sophistication, and personality to any space. Proudly curated, family‑led, design‑driven."
+        }
+      ]
+    },
+    {
+      "type": "cta_button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Button URL",
+          "default": "/"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Button Label",
+          "default": "Learn More"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [
+    {
+      "name": "3D Hero Section",
+      "category": "Hero",
+      "blocks": [
+        { "type": "hs_container", "settings": {} },
+        { "type": "heading", "settings": { "text": "Transform Spaces with <br>Timeless Tile & Bathware" } },
+        { "type": "description", "settings": { "text": "<b>Unleash Your Design Vision</b><br>From textured stone-look tiles to elegant tapware and bathroom essentials, discover premium materials that bring warmth, sophistication, and personality to any space. Proudly curated, family‑led, design‑driven." } },
+        { "type": "cta_button", "settings": { "url": "/", "label": "Learn More" } }
+      ]
+    }
+  ]
+}
+{% endschema %}
