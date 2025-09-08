@@ -1,1 +1,168 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"content_width":"100%"}},"slideshow_D74tnE":{"type":"slideshow","blocks":{"image_4FWCj3":{"type":"image","settings":{"overlay_position":"center","overlay_width":30,"overlay_color":"#000000","overlay_opacity":0,"image":"shopify:\/\/shop_images\/Option1landscape.jpg","mobile_image":"shopify:\/\/shop_images\/Option2Portrait.jpg","content_max_width":780,"mobile_text_position":"place-self-end-start text-start","desktop_text_position":"sm:place-self-end-start sm:text-start","subheading":"","title":"CONTACT US","heading_tag":"h3","button_text":"","button_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","background":"","background_gradient":""}}},"block_order":["image_4FWCj3"],"name":"Slideshow","settings":{"full_width":true,"allow_transparent_header":true,"show_initial_transition":false,"image_size":"sm","controls_type":"dots","transition_type":"fade_with_text","autoplay":false,"cycle_speed":6,"background":"#f2f2f2","background_gradient":""}},"contact":{"type":"contact","settings":{"full_width":true,"subheading":"","title":"GET IN TOUCH WITH US","content":"<p><strong>Email <\/strong><\/p><p>hello@poemehome.com.au<\/p>","text_position":"start","contact_form_size":"large","background":"#ffffff","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","contact_background":"#eae1d7","contact_text_color":"#373636","button_background":"","button_text_color":""}}},"order":["main","slideshow_D74tnE","contact"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "slideshow_D74tnE": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4FWCj3": {
+          "type": "image",
+          "settings": {
+            "overlay_position": "center",
+            "overlay_width": 30,
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "CONTACT US",
+            "heading_tag": "h3",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4FWCj3"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "sm",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Our experts are here to guide you every step of the way. Together, we’ll create the space of your dreams.",
+        "content": "<p>Call  02 6280 9698<br/>(9am to 5pm - Monday to Friday)<br/></p><p><strong>Email </strong></p><p>hello@tilerepublic.com.au</p><p>Our social media:<br/><br/>Instagram<br/><br/>Facebook<br/><br/>Pinterest<br/><br/><br/></p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#ffffff",
+        "contact_text_color": "#373636",
+        "button_background": "#373636",
+        "button_text_color": ""
+      }
+    },
+    "multi_column_JMXbrq": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RxM4Xp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Vector_80.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Our location",
+            "heading_tag": "h5",
+            "content": "<p>121 Newcastle Street Fyshwick ACT 2609</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Dcg3JL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Clock.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Showroom",
+            "heading_tag": "h5",
+            "content": "<p>Monday to Friday: 9am to 4.30pm Saturday: 8.30am to 1.30pm</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_T7bxzD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Clock.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Trade outlet",
+            "heading_tag": "h4",
+            "content": "<p>Monday to Friday: 7am to 3.30pm Saturday: 8.30am to 12pm</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_RxM4Xp",
+        "item_Dcg3JL",
+        "item_T7bxzD"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_qtgjfH": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3255.111764966726!2d149.17687229999999!3d-35.328046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b164c36ee8f87f7%3A0xab07b1dd143b3a7f!2s121%20Newcastle%20St%2C%20Fyshwick%20ACT%202609%2C%20Australia!5e0!3m2!1sen!2seg!4v1757375127329!5m2!1sen!2seg\" width=\"100%\" height=\"680px\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_D74tnE",
+    "contact",
+    "multi_column_JMXbrq",
+    "custom_liquid_qtgjfH"
+  ]
+}

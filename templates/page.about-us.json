@@ -1,1 +1,332 @@
-{"sections":{"main":{"type":"main-page","settings":{"content_width":"60ch"}},"media_with_text_ch3qrV":{"type":"media-with-text","blocks":{"image_KpHmrn":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Collage1_dd25f501-a3d8-4141-849c-e9b6a30690d1.jpg","media_width":35,"media_position":"end","text_position":"place-self-center-start text-start","icon":"none","icon_width":120,"subheading":"","title":"our story","content":"<p>At Poème Home, we believe home is more than a<br\/>place—it’s a feeling. A sanctuary shaped by the objects we choose to live with,<br\/>and the quiet stories they tell.<\/p><p>Just as a poet selects words for their rhythm and emotion, we<br\/>curate each piece not only for its beauty, but for its ability to evoke<br\/>something deeper: a memory, a mood, a moment of stillness. To us, great design<br\/>is about resonance. It’s the detail that softens a space, the texture that<br\/>catches the light, and the quiet joy something brings simply by being there.<\/p><p>As a boutique homewares destination, our mission is to offer<br\/>thoughtfully curated pieces that elevate the story of your home. With<br\/>collections designed both in-house and sourced from artisans across the globe,<br\/>we focus on timeless beauty, refined luxury, and enduring style.<\/p><p>From luxurious materials to rich textures and harmonious<br\/>colour palettes, every piece is chosen to bring intention, beauty, and joy into<br\/>your everyday. <\/p><p>We hope you enjoy exploring our collections <em> <\/em>and we welcome you into our world. xx<\/p>","link_text":"","link_url":"","background":"#fdfbfa","background_gradient":"","text_color":"#333333","text_gradient":"","button_background":"","button_text_color":""}}},"block_order":["image_KpHmrn"],"name":"Media with text","settings":{"full_width":true,"alternate_media_position":false,"spacing":"small"}},"media_with_text_wUwWGN":{"type":"media-with-text","blocks":{"image_QhqQPH":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Collage2_158d7685-0527-4595-890a-2b50da58a1a8.jpg","media_width":35,"media_position":"start","text_position":"place-self-center-start text-start","icon":"none","icon_width":120,"subheading":"","title":"The Founder","content":"<p>Alison MacCormick is the founder, creative director, and designer behind Poème Home. With a Bachelor of Design Education from Sydney University, she has spent over 20 years teaching a range of design disciplines, from Fashion and Textiles to Surface and Product Design. Driven by her love for design, Alison furthered her studies, completing a Diploma in Interior Design and Decorating which solidified her passion for beautiful interiors. Alison’s design philosophy centres around the love for natural materials, luxurious fabrics, and simple timeless design. She believes that design should be functional, as well as exceptionally beautiful. It should enhance our way of living whilst connecting with our emotions. Good design should also be timeless - relevant today, tomorrow and into the future. With this philosophy at her core, Alison founded Poème Home. With the aim of offering small unique collections to other design lovers seeking that extra special piece to add to their own home story. <\/p><p><em><strong>“I love how good design can elevate your daily experiences and I especially love the way beautiful design can make you feel. Just like a well crafted poem, design can inspire, uplift and transport you to another place. I created Poeme Home as a go to source for those extra special pieces for curating a beautiful home that brings joy to your everyday.”    <\/strong><\/em> Alison MacCormick<br\/><br\/><\/p>","link_text":"","link_url":"","background":"#fdfbfa","background_gradient":"","text_color":"#333333","text_gradient":"","button_background":"","button_text_color":""}}},"block_order":["image_QhqQPH"],"name":"Media with text","settings":{"full_width":true,"alternate_media_position":false,"spacing":"small"}},"media_grid_A6tcPU":{"type":"media-grid","blocks":{"image_TTqGTg":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/470032406_17979391466788514_7493222208137577803_n.jpg","title":"","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":2,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"image_9Yxb3V":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/501015819_17998760330788514_1585921365363034165_n.jpg","title":"","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":2,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["image_TTqGTg","image_9Yxb3V"],"name":"Media grid","settings":{"full_width":true,"reduce_width":false,"desktop_row_height":290,"mobile_row_height":150,"background":"","background_gradient":""}}},"order":["main","media_with_text_ch3qrV","media_with_text_wUwWGN","media_grid_A6tcPU"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "media_with_text_ch3qrV": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_KpHmrn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2072749038.png",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 120,
+            "subheading": "",
+            "title": "Welcome to Tile Republic: Crafting Spaces with Passion",
+            "content": "<p>At Tile Republic, we believe every tile, stone, or bathroom fixture tells a story—a story of beauty, functionality, and love for extraordinary design. We don’t just offer products; we provide the inspiration and tools to create spaces that feel uniquely yours.<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fdfbfa",
+            "background_gradient": "",
+            "text_color": "#333333",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_KpHmrn"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_wUwWGN": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_QhqQPH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2072749039.png",
+            "media_width": 35,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 120,
+            "subheading": "",
+            "title": "We’re family",
+            "content": "<p>Tile Republic has always revolved around family and is owned and managed by sibling team Sonia and Bruno Ciancio. Since our establishment in 2015, our family has quickly grown to include a young and enthusiastic team of design experts – all likeminded in our desire to achieve the best possible outcome for our clients.We love the idea of giving life to our clients vision!<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fdfbfa",
+            "background_gradient": "",
+            "text_color": "#333333",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QhqQPH"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "multi_column_3WJaAz": {
+      "type": "multi-column",
+      "blocks": {
+        "item_T8PEUG": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Personalised Design Consultations",
+            "heading_tag": "h5",
+            "content": "<p>Let our experts guide you through the process of choosing the perfect materials for your project. Together, we’ll transform your ideas into stunning realities.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_mjK66e": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Inspiration Galleries",
+            "heading_tag": "h5",
+            "content": "<p>Explore trending designs and innovative solutions in our galleries, where creativity knows no bounds.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_kkEJ6k": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Support for Professionals",
+            "heading_tag": "h5",
+            "content": "<p>Architects, builders, and designers benefit from our tailored trade services, bulk order options, and project-specific advice.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_T8PEUG",
+        "item_mjK66e",
+        "item_kkEJ6k"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "More Than a Store",
+        "title": "A Partner in Design",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_wp9aTy": {
+      "type": "multi-column",
+      "blocks": {
+        "item_ENnwxH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2072749050.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Tiles",
+            "heading_tag": "h5",
+            "content": "<p>From sleek porcelain for your outdoor patio to intricate mosaics for your kitchen backsplash, our tiles cater to every style. Whether modern or timelessly classic, each piece is crafted to inspire and endure.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ydFy7W": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2072749183.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Natural Stone",
+            "heading_tag": "h5",
+            "content": "<p>Marble, travertine, and other luxurious stones are more than materials—they’re the foundation for breathtaking spaces. Perfect for statement walls, elegant flooring, and unforgettable features.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VAC7Ld": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2072749185.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Bathroom Essentials",
+            "heading_tag": "h4",
+            "content": "<p>Luxury meets practicality with our range of tapware, baths, vanities, and accessories. Every detail, from mirrored cabinets to robe hooks, is thoughtfully designed to elevate your daily rituals.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_ENnwxH",
+        "item_ydFy7W",
+        "item_VAC7Ld"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "Our Collections",
+        "title": "Designed to Delight",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_A6tcPU": {
+      "type": "media-grid",
+      "blocks": {
+        "image_TTqGTg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Group_1707487064.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_TTqGTg"
+      ],
+      "name": "Media grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "multi_column_jGGDbM": {
+      "type": "multi-column",
+      "blocks": {
+        "item_DazzHc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Photo_2.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Name surname",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_eXV46n": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Photo_1.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Name surname",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_NUA47r": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Photo.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Name surname",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_DazzHc",
+        "item_eXV46n",
+        "item_NUA47r"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "our team",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_ch3qrV",
+    "media_with_text_wUwWGN",
+    "multi_column_3WJaAz",
+    "multi_column_wp9aTy",
+    "media_grid_A6tcPU",
+    "multi_column_jGGDbM"
+  ]
+}
