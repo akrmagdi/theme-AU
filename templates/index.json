@@ -76,8 +76,70 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "impact_text_ryCCqH": {
+      "type": "impact-text",
+      "blocks": {
+        "item_jdWpW7": {
+          "type": "item",
+          "settings": {
+            "title": "50k",
+            "subheading": "product options",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_myxwex": {
+          "type": "item",
+          "settings": {
+            "title": "9+",
+            "subheading": "years of experience",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_g8zgqn": {
+          "type": "item",
+          "settings": {
+            "title": "20+",
+            "subheading": "premium brands",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_jdWpW7",
+        "item_myxwex",
+        "item_g8zgqn"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "rich_text_dpRirz": {
@@ -106,7 +168,47 @@
       "name": "Rich text",
       "settings": {
         "full_width": true,
-        "content_width": "small",
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#373636",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_mybdmP": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_xAm6W7": {
+          "type": "subheading",
+          "settings": {
+            "text": "style quiz"
+          }
+        },
+        "heading_UEAbP4": {
+          "type": "heading",
+          "settings": {
+            "text": "DISCOVER THE LOOK THAT MOVES YOU",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_gF9BUT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Don't choose blindly—Take our quiz to convert your gut feeling into a creative roadmap perfectly aligned with your style. Choose images that resonate the most with you — we’ll do the rest!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xAm6W7",
+        "heading_UEAbP4",
+        "richtext_gF9BUT"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
         "text_position": "start",
         "background": "",
         "background_gradient": "",
@@ -119,11 +221,12 @@
         "item_JPAmg7": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/image_47.png",
             "show_controls": false,
             "column_size": "3",
-            "title": "Column title",
+            "title": "Warm & Cozy",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -132,11 +235,12 @@
         "item_wVjwDx": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/image_47_1b5ce315-8b7b-411c-b06d-c142f693b68e.png",
             "show_controls": false,
             "column_size": "3",
-            "title": "Column title",
+            "title": "Elegant & Refined",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -145,11 +249,12 @@
         "item_bYEdci": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/image_47_7779e4af-749a-42d9-bff3-7598afe1f433.png",
             "show_controls": false,
             "column_size": "3",
-            "title": "Column title",
+            "title": "Bold & Passionate",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -168,7 +273,7 @@
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
-        "title": "",
+        "title": "1. What emotion should your space evoke?",
         "content": "",
         "background": "",
         "background_gradient": "",
@@ -182,14 +287,14 @@
         "collection": "",
         "products": [],
         "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 5,
+        "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Featured collection",
-        "content": "",
+        "subheading": "Categories",
+        "title": "EXPLORE OUR CATEGORIES— FOR EVERY DETAIL OF YOUR DESIGN",
+        "content": "<h6>Dive into our curated categories and find pieces that help you create a space you love.</h6>",
         "link_url": "",
         "link_text": "View all",
         "background": "",
@@ -201,31 +306,44 @@
         "product_card_text_color": ""
       }
     },
-    "scrolling_text_GLDgNx": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
+    "rich_text_WtdGzM": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_3NQpyz": {
+          "type": "subheading",
+          "settings": {
+            "text": "click to explore"
+          }
+        },
+        "heading_LHF3JY": {
+          "type": "heading",
+          "settings": {
+            "text": "Immerse Yourself in Elegance",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_RAWig9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Explore a stunning room image where every tile and detail tells a story of timeless beauty—click to discover each product.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3NQpyz",
+        "heading_LHF3JY",
+        "richtext_RAWig9"
+      ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 10,
+        "content_width": "large",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
-    "revealed_image_on_scroll_GPi3Cr": {
-      "type": "revealed-image-on-scroll",
-      "name": "Revealed image on scroll",
-      "settings": {
-        "subheading": "",
-        "title": "Reveal text on scroll",
-        "background": "",
-        "text_color_inside": "#ffffff",
-        "text_color_outside": "#000000"
+        "text_color": ""
       }
     },
     "hot_spots_3VKezG": {
@@ -276,6 +394,7 @@
       "name": "Hot spots",
       "settings": {
         "full_width": true,
+        "image": "shopify://shop_images/image_to_explore.png",
         "title": "",
         "content": "",
         "button_text": "",
@@ -329,6 +448,7 @@
         "product_jbCnWE",
         "product_d9KP43"
       ],
+      "disabled": true,
       "name": "Shop the look",
       "settings": {
         "full_width": true,
@@ -353,34 +473,37 @@
         "testimonial_fEJhTc": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/image_44.png",
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Sophia Martinez",
+            "title": "",
+            "content": "<p>\"I never knew choosing tiles could be so personal. This wasn’t just about buying tiles—it was about creating a story. Every time I step in, it feels like stepping into a luxury spa designed just for me.\"</p>"
           }
         },
         "testimonial_p4wfrE": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/image_44_e4402524-21c7-45d9-a412-2182bbb09074.png",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "James Lancaster",
+            "title": "",
+            "content": "<p>\"From start to finish, this was a journey of discovery. The personalized service and design expertise turned my vague ideas into a space that feels like home and art combined. I’m in love with every detail!\"</p>"
           }
         },
         "testimonial_mxzzeb": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/image.png",
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Emily Robinson",
+            "title": "",
+            "content": "<p>\"This wasn’t just about buying tiles. Each choice felt meaningful, and the end result is a kitchen that’s not just functional but incredibly beautiful. It’s a transformation I’ll cherish forever.\"</p>"
           }
         },
         "testimonial_LKcXn6": {
@@ -405,8 +528,8 @@
       "settings": {
         "full_width": true,
         "stack_testimonials": false,
-        "subheading": "",
-        "title": "Testimonials",
+        "subheading": "reviews",
+        "title": "Stories of Love and Transformation",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -417,6 +540,27 @@
         "heading_gradient": "",
         "testimonial_card_background": "",
         "testimonial_card_text_color": ""
+      }
+    },
+    "contact_AdNrkU": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Contact Us",
+        "title": "Do you have any question?",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "faq_9AKeVP": {
@@ -471,18 +615,147 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "multi_column_3fmMCT": {
+      "type": "multi-column",
+      "blocks": {
+        "item_TDCPNG": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pNtFhp": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Aym3Xn": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_TDCPNG",
+        "item_pNtFhp",
+        "item_Aym3Xn"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "logo_list_PyKxrQ": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_qhU6XC": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_xy3xiY": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_ACBGpa": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_F9bYKb": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_cLzFHA": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_qhU6XC",
+        "logo_xy3xiY",
+        "logo_ACBGpa",
+        "logo_F9bYKb",
+        "logo_cLzFHA"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Logo list",
+        "content": "",
+        "text_alignment": "start",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
     "slideshow_pMeiHb",
+    "impact_text_ryCCqH",
     "rich_text_dpRirz",
+    "rich_text_mybdmP",
     "multi_column_MhKY9X",
     "featured_collection_i6EjAE",
-    "scrolling_text_GLDgNx",
-    "revealed_image_on_scroll_GPi3Cr",
+    "rich_text_WtdGzM",
     "hot_spots_3VKezG",
     "shop_the_look_ctLFUd",
     "testimonials_i6gtJ6",
-    "faq_9AKeVP"
+    "contact_AdNrkU",
+    "faq_9AKeVP",
+    "multi_column_3fmMCT",
+    "logo_list_PyKxrQ"
   ]
 }

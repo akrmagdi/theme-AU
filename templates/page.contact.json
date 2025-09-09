@@ -85,12 +85,12 @@
         "item_RxM4Xp": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Vector_80.png",
+            "image": "shopify://shop_images/Location.png",
             "show_controls": false,
             "column_size": "3",
             "title": "Our location",
-            "heading_tag": "h5",
-            "content": "<p>121 Newcastle Street Fyshwick ACT 2609</p>",
+            "heading_tag": "h3",
+            "content": "<p><strong>121 Newcastle Street Fyshwick ACT 2609</strong></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -103,8 +103,8 @@
             "show_controls": false,
             "column_size": "3",
             "title": "Showroom",
-            "heading_tag": "h5",
-            "content": "<p>Monday to Friday: 9am to 4.30pm Saturday: 8.30am to 1.30pm</p>",
+            "heading_tag": "h3",
+            "content": "<p><strong>Monday to Friday: 9am to 4.30pm Saturday: 8.30am to 1.30pm</strong></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -117,8 +117,8 @@
             "show_controls": false,
             "column_size": "3",
             "title": "Trade outlet",
-            "heading_tag": "h4",
-            "content": "<p>Monday to Friday: 7am to 3.30pm Saturday: 8.30am to 12pm</p>",
+            "heading_tag": "h3",
+            "content": "<p><strong>Monday to Friday: 7am to 3.30pm Saturday: 8.30am to 12pm</strong></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
