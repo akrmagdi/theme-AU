@@ -687,6 +687,7 @@
         "logo_qhU6XC": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Logo_5.svg",
             "logo_width": 120,
             "link": ""
           }
@@ -694,6 +695,7 @@
         "logo_xy3xiY": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Logo_6.svg",
             "logo_width": 120,
             "link": ""
           }
@@ -701,6 +703,7 @@
         "logo_ACBGpa": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Logo_7.png",
             "logo_width": 120,
             "link": ""
           }
@@ -708,6 +711,7 @@
         "logo_F9bYKb": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Logo_9.svg",
             "logo_width": 120,
             "link": ""
           }
@@ -715,6 +719,7 @@
         "logo_cLzFHA": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Logo_8.svg",
             "logo_width": 120,
             "link": ""
           }
@@ -731,7 +736,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "Logo list",
+        "title": "",
         "content": "",
         "text_alignment": "start",
         "items_per_row": 5,
